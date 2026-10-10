@@ -2,15 +2,19 @@
 
 # Aura Cover
 
-Un **Undercover en 3D**, de **3 à 12 joueurs en ligne**, chacun sur son PC Windows.
+Un **Undercover en 3D**, de **3 à 12 joueurs en ligne**, chacun sur son PC (Windows ou Mac).
 Le roi vous a convoqués autour du feu de camp : des traîtres se cachent parmi vous. Écrivez vos indices, débattez sur Discord, accusez… et le roi tranche la tête du désigné.
 
 ## ⬇️ Télécharger
 
-### **[Télécharger Aura Cover v0.7 pour Windows](https://github.com/artercamille/auracover-jeu/raw/main/AuraCover.zip)**
-
+### 🪟 **[Télécharger pour Windows](https://github.com/artercamille/auracover-jeu/raw/main/AuraCover.zip)**
 Dézippe le fichier, puis lance `AuraCover.exe`.
 Si Windows affiche « Windows a protégé votre ordinateur » : *Informations complémentaires* → *Exécuter quand même*.
+
+### 🍎 **[Télécharger pour Mac](https://github.com/artercamille/auracover-jeu/raw/main/AuraCover-Mac.zip)**
+Dézippe le fichier et glisse **Aura Cover** dans *Applications*. Au premier lancement, macOS bloque les apps qui ne viennent pas de l'App Store :
+- clic droit sur l'app → **Ouvrir** → **Ouvrir** ;
+- si macOS dit que l'app est « endommagée » ou refuse encore : *Réglages Système* → *Confidentialité et sécurité* → **Ouvrir quand même**, ou dans le Terminal : `xattr -cr "/Applications/Aura Cover.app"`.
 
 Tout le monde doit avoir **la même version**. Un bouton rouge apparaît sur l'écran titre quand une nouvelle version sort.
 
@@ -21,8 +25,8 @@ Tout le monde doit avoir **la même version**. Un bouton rouge apparaît sur l'�
 3. Chacun choisit son villageois, l'hôte règle la partie et clique sur **Lancer la partie**.
 
 Pour se connecter, au choix :
-- **Radmin VPN** (gratuit, le plus simple) : tout le monde rejoint le même réseau, l'IP commence par `26.`
-- **Ouvrir le port** sur la box de l'hôte : **UDP 7777** vers son PC, puis donner son IP publique.
+- **Radmin VPN** (gratuit, le plus simple, **Windows uniquement**) : tout le monde rejoint le même réseau, l'IP commence par `26.`
+- **Ouvrir le port** sur la box de l'hôte : **UDP 7777** vers son PC, puis donner son IP publique. C'est la méthode à utiliser s'il y a des joueurs sur **Mac** (Radmin n'existe pas sur Mac).
 
 Si Windows demande l'accès au réseau au premier lancement : cocher **Privé et Public**.
 
@@ -61,13 +65,13 @@ Si Windows demande l'accès au réseau au premier lancement : cocher **Privé et
 <img src="docs/debat.jpg" width="48%"> <img src="docs/verdict.jpg" width="48%">
 <img src="docs/billot.jpg" width="48%"> <img src="docs/epee.jpg" width="48%">
 <img src="docs/tranche.jpg" width="48%"> <img src="docs/role.jpg" width="48%">
-<img src="docs/fin.jpg" width="48%">
+<img src="docs/fin.jpg" width="48%"> <img src="docs/options.jpg" width="48%">
 </p>
 
 ## Crédits
 
 - Modèles 3D : [Craftpix.net](https://craftpix.net)
-- Interface et logo : Camille
-- Polices : Cinzel et Alegreya Sans (SIL Open Font License)
+- Logo : Camille
+- Interface : [Kenney – UI Pack Adventure](https://kenney.nl) (CC0) · police Fredoka (SIL Open Font License)
 - Sons d'interface : [Kenney](https://kenney.nl) (CC0) · musique et ambiance générées pour le jeu
 - Fait avec [Godot 4.3](https://godotengine.org/)
